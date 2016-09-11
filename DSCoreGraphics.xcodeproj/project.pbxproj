@@ -24,6 +24,12 @@
 		13B743601C7AAF5700BC6B7E /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B7435D1C7AAF5700BC6B7E /* BaseViewController.m */; };
 		13B743611C7AAF5700BC6B7E /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B7435F1C7AAF5700BC6B7E /* RootViewController.m */; };
 		13B743661C7AB75300BC6B7E /* UIKitOneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B743651C7AB75300BC6B7E /* UIKitOneViewController.m */; };
+		33B21A751D84EC460039889A /* DrawThreeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 33B21A741D84EC460039889A /* DrawThreeViewController.m */; };
+		33B21A781D84EDB90039889A /* DrawFourViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 33B21A771D84EDB90039889A /* DrawFourViewController.m */; };
+		33B21A7E1D84EFE20039889A /* DrawFiveViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 33B21A7D1D84EFE20039889A /* DrawFiveViewController.m */; };
+		33B21A811D84F1A90039889A /* DrawSixViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 33B21A801D84F1A90039889A /* DrawSixViewController.m */; };
+		33D24D7E1D8305A400710F95 /* DrawOneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 33D24D7D1D8305A400710F95 /* DrawOneViewController.m */; };
+		33D24D811D830A7900710F95 /* DrawTwoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 33D24D801D830A7900710F95 /* DrawTwoViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -78,6 +84,18 @@
 		13B7435F1C7AAF5700BC6B7E /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
 		13B743641C7AB75300BC6B7E /* UIKitOneViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIKitOneViewController.h; sourceTree = "<group>"; };
 		13B743651C7AB75300BC6B7E /* UIKitOneViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIKitOneViewController.m; sourceTree = "<group>"; };
+		33B21A731D84EC460039889A /* DrawThreeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DrawThreeViewController.h; path = SomeExample/DrawThreeViewController.h; sourceTree = "<group>"; };
+		33B21A741D84EC460039889A /* DrawThreeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DrawThreeViewController.m; path = SomeExample/DrawThreeViewController.m; sourceTree = "<group>"; };
+		33B21A761D84EDB90039889A /* DrawFourViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DrawFourViewController.h; path = SomeExample/DrawFourViewController.h; sourceTree = "<group>"; };
+		33B21A771D84EDB90039889A /* DrawFourViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DrawFourViewController.m; path = SomeExample/DrawFourViewController.m; sourceTree = "<group>"; };
+		33B21A7C1D84EFE20039889A /* DrawFiveViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DrawFiveViewController.h; path = SomeExample/DrawFiveViewController.h; sourceTree = "<group>"; };
+		33B21A7D1D84EFE20039889A /* DrawFiveViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DrawFiveViewController.m; path = SomeExample/DrawFiveViewController.m; sourceTree = "<group>"; };
+		33B21A7F1D84F1A90039889A /* DrawSixViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DrawSixViewController.h; path = SomeExample/DrawSixViewController.h; sourceTree = "<group>"; };
+		33B21A801D84F1A90039889A /* DrawSixViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DrawSixViewController.m; path = SomeExample/DrawSixViewController.m; sourceTree = "<group>"; };
+		33D24D7C1D8305A400710F95 /* DrawOneViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DrawOneViewController.h; path = SomeExample/DrawOneViewController.h; sourceTree = "<group>"; };
+		33D24D7D1D8305A400710F95 /* DrawOneViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DrawOneViewController.m; path = SomeExample/DrawOneViewController.m; sourceTree = "<group>"; };
+		33D24D7F1D830A7900710F95 /* DrawTwoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrawTwoViewController.h; sourceTree = "<group>"; };
+		33D24D801D830A7900710F95 /* DrawTwoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrawTwoViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -169,6 +187,7 @@
 		13B7435B1C7AAF5600BC6B7E /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				33D24D7B1D83054900710F95 /* SomeExample */,
 				13B743621C7AB6E900BC6B7E /* CoreGraphics */,
 				13B743631C7AB6E900BC6B7E /* UIKit */,
 				13B7435C1C7AAF5700BC6B7E /* BaseViewController.h */,
@@ -207,6 +226,25 @@
 				135A8C281C7EF3E70065D0A4 /* UIKitFourViewController.m */,
 			);
 			path = UIKit;
+			sourceTree = "<group>";
+		};
+		33D24D7B1D83054900710F95 /* SomeExample */ = {
+			isa = PBXGroup;
+			children = (
+				33D24D7C1D8305A400710F95 /* DrawOneViewController.h */,
+				33D24D7D1D8305A400710F95 /* DrawOneViewController.m */,
+				33D24D7F1D830A7900710F95 /* DrawTwoViewController.h */,
+				33D24D801D830A7900710F95 /* DrawTwoViewController.m */,
+				33B21A731D84EC460039889A /* DrawThreeViewController.h */,
+				33B21A741D84EC460039889A /* DrawThreeViewController.m */,
+				33B21A761D84EDB90039889A /* DrawFourViewController.h */,
+				33B21A771D84EDB90039889A /* DrawFourViewController.m */,
+				33B21A7C1D84EFE20039889A /* DrawFiveViewController.h */,
+				33B21A7D1D84EFE20039889A /* DrawFiveViewController.m */,
+				33B21A7F1D84F1A90039889A /* DrawSixViewController.h */,
+				33B21A801D84F1A90039889A /* DrawSixViewController.m */,
+			);
+			name = SomeExample;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -340,9 +378,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				13B7431E1C7AA6C000BC6B7E /* AppDelegate.m in Sources */,
+				33D24D7E1D8305A400710F95 /* DrawOneViewController.m in Sources */,
 				1363CD151C7C33AD006172BD /* UIKitThreeViewController.m in Sources */,
+				33B21A811D84F1A90039889A /* DrawSixViewController.m in Sources */,
 				13B743601C7AAF5700BC6B7E /* BaseViewController.m in Sources */,
 				135A8C321C7EFB6F0065D0A4 /* CGThreeViewController.m in Sources */,
+				33B21A7E1D84EFE20039889A /* DrawFiveViewController.m in Sources */,
 				1363CD121C7C29C4006172BD /* UIKitTwoViewController.m in Sources */,
 				13B743661C7AB75300BC6B7E /* UIKitOneViewController.m in Sources */,
 				135A8C291C7EF3E70065D0A4 /* UIKitFourViewController.m in Sources */,
@@ -350,7 +391,10 @@
 				135A8C2F1C7EFAC10065D0A4 /* CGTwoViewController.m in Sources */,
 				13B743611C7AAF5700BC6B7E /* RootViewController.m in Sources */,
 				135A8C351C7EFC9B0065D0A4 /* CGFourViewController.m in Sources */,
+				33B21A781D84EDB90039889A /* DrawFourViewController.m in Sources */,
+				33B21A751D84EC460039889A /* DrawThreeViewController.m in Sources */,
 				13B7431B1C7AA6C000BC6B7E /* main.m in Sources */,
+				33D24D811D830A7900710F95 /* DrawTwoViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

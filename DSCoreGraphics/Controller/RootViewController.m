@@ -34,7 +34,15 @@
                                 @"CGTwo",
                                 @"CGThree",
                                 @"CGFour"
-                              ]
+                              ],
+               @"一些绘图的例子":@[
+                                @"DrawOne",
+                                @"DrawTwo",
+                                @"DrawThree",
+                                @"DrawFour",
+                                @"DrawFive",
+                                @"DrawSix"
+                                ]
              };
     
     _itemsName = @{
@@ -52,6 +60,14 @@
                                 @"InContext(drawLayer: inContext:)",
                                 @"UIGraphicsBeginImageContextWithOptions",
                            ],
+                   @"一些绘图的例子":@[
+                                @"绘制文字",
+                                @"绘制图片",
+                                @"画线",
+                                @"连续绘制线条，并设置交界样式",
+                                @"绘制矩形",
+                                @"绘制线性渐变效果"
+                           ]
                    };
     
     [self.tableView registerClass:[UITableViewCell class] forCellReuseIdentifier:@"Cell"];
