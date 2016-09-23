@@ -41,7 +41,9 @@
                                 @"DrawThree",
                                 @"DrawFour",
                                 @"DrawFive",
-                                @"DrawSix"
+                                @"DrawSix",
+                                @"DrawSeven",
+                                @"DrawEight"
                                 ]
              };
     
@@ -66,7 +68,9 @@
                                 @"画线",
                                 @"连续绘制线条，并设置交界样式",
                                 @"绘制矩形",
-                                @"绘制线性渐变效果"
+                                @"绘制线性渐变效果",
+                                @"drawRect绘制进度条progress",
+                                @"CAShapeLayer与UIBezierPath进度条"
                            ]
                    };
     

@@ -8,7 +8,7 @@
 
 #import "CGThreeViewController.h"
 
-@interface CGLayerDelegate : NSObject
+@interface CGLayerDelegate : NSObject<CALayerDelegate>
 
 @end
 
